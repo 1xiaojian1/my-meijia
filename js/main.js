@@ -1,0 +1,1 @@
+console.log('Nail AI Studio V1.0 loaded');
