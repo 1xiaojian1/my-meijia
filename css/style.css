@@ -1,0 +1,12 @@
+
+*{box-sizing:border-box}body{margin:0;font-family:Arial,'Microsoft YaHei';background:#faf5f5;color:#222}
+header{display:flex;justify-content:space-between;padding:25px 8%;background:white}
+nav a,header a{margin:0 10px;color:#333;text-decoration:none}
+.logo{font-size:24px;font-weight:bold}
+.hero{text-align:center;padding:100px 20px;background:linear-gradient(#fff,#f7dfe5)}
+.hero h1{font-size:48px}.btn{display:inline-block;padding:14px 30px;margin:15px;background:#111;color:white;text-decoration:none;border-radius:30px}
+.secondary{background:#b88b7d}.cards,.grid{display:flex;gap:20px;justify-content:center;padding:40px}
+.cards div,.nail,.result,.camera,.upload{padding:40px;background:white;border-radius:20px;text-align:center}
+.page{padding:50px;text-align:center}.filters{padding:20px}
+.camera{height:300px}.grid{flex-wrap:wrap}
+@media(max-width:700px){.hero h1{font-size:30px}nav{display:none}.cards,.grid{flex-direction:column}}
