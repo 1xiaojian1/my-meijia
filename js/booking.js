@@ -1,0 +1,1 @@
+fetch('data/bookings.json').then(r=>r.json()).then(d=>document.getElementById('booking-list').innerHTML=d.map(x=>x.store+' '+x.time).join('<br>'));

@@ -1,0 +1,1 @@
+document.getElementById('dashboard').innerHTML='用户统计：1200<br>AI生成：5600<br>预约订单：320';

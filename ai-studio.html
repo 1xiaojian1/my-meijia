@@ -1,13 +1,31 @@
-
 <!DOCTYPE html>
-<html lang="zh-CN"><head><meta charset="UTF-8"><title>AI Studio</title><link rel="stylesheet" href="css/style.css"></head>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI美甲试戴中心</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/ai-tryon.css">
+</head>
 <body>
 <header><div class="logo">AI Studio</div><a href="index.html">首页</a></header>
 <main class="page">
-<h1>AI智能美甲设计</h1>
-<div class="upload">上传手部照片</div>
-<select><option>选择风格</option><option>法式</option><option>高级</option><option>可爱</option></select>
-<button class="btn">生成设计</button>
-<div class="result">AI生成效果预览区域</div>
+<h1>AI美甲试戴与图片生成系统</h1>
+<div class="ai-box">
+<h2>1. 上传手部照片</h2>
+<input id="photoInput" type="file" accept="image/*">
+<div id="sourcePreview" class="preview"></div>
+
+<h2>2. 选择美甲方案</h2>
+<select id="styleSelect">
+<option>法式优雅</option><option>甜美可爱</option>
+<option>御姐高级</option><option>简约裸色</option>
+</select>
+
+<br><button id="generateBtn" class="btn">AI生成效果</button>
+<button id="saveBtn" class="btn secondary">保存作品</button>
+
+<div id="aiResult"></div>
+</div>
 </main>
+<script src="js/ai-tryon.js"></script>
 </body></html>

@@ -1,11 +1,1 @@
-
-<!DOCTYPE html>
-<html lang="zh-CN"><head><meta charset="UTF-8"><title>AR Try On</title><link rel="stylesheet" href="css/style.css"></head>
-<body>
-<header><div class="logo">AR Try On</div><a href="index.html">首页</a></header>
-<main class="page">
-<h1>AR虚拟试戴</h1>
-<div class="camera">摄像头 / 手部识别区域</div>
-<button class="btn">开启试戴</button>
-</main>
-</body></html>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><title>AR实时虚拟试戴</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/ar-style.css"></head><body><header><div class="logo">AR Try On V6</div><a href="index.html">首页</a></header><main class="page"><h1>AR实时虚拟试戴系统</h1><div class="ar-stage"><video id="arVideo" autoplay playsinline></video><canvas id="arCanvas"></canvas></div><div class="ar-controls"><button class="btn" onclick="startCamera()">开启摄像头</button><button class="btn" onclick="initHandTracking()">启动手部识别</button><p id="arStatus" class="status">等待启动</p><p id="nailStyle">当前美甲样式：默认</p><button class="btn" onclick="switchNailStyle('法式渐变')">法式</button><button class="btn" onclick="switchNailStyle('猫眼款')">猫眼</button></div></main><script src="js/ar-camera.js"></script><script src="js/hand-track.js"></script><script src="js/nail-overlay.js"></script></body></html>

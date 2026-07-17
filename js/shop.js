@@ -1,0 +1,1 @@
+fetch('data/products.json').then(r=>r.json()).then(d=>document.getElementById('products').innerHTML=d.map(x=>'<div class="product">'+x.name+' ¥'+x.price+'</div>').join(''));

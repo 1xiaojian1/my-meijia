@@ -10,3 +10,6 @@ nav a,header a{margin:0 10px;color:#333;text-decoration:none}
 .page{padding:50px;text-align:center}.filters{padding:20px}
 .camera{height:300px}.grid{flex-wrap:wrap}
 @media(max-width:700px){.hero h1{font-size:30px}nav{display:none}.cards,.grid{flex-direction:column}}
+
+/* V2 responsive extension */
+@media(max-width:700px){header{flex-direction:column;align-items:center}.hero{padding:50px 15px}}

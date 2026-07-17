@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AI美甲用户画像</title><link rel="stylesheet" href="../css/profile.css"></head>
+<body>
+<header><h1>Nail AI Studio - 我的美甲画像</h1></header>
+<main class="profile-box">
+<label>喜欢风格<select id="style"><option>韩系</option><option>欧美</option><option>日系</option><option>可爱</option><option>高级</option></select></label>
+<label>喜欢颜色<select id="color"><option>裸色</option><option>粉色</option><option>红色</option><option>蓝色</option></select></label>
+<label>长度<select id="length"><option>短甲</option><option>中长</option><option>长甲</option></select></label>
+<label>甲型<select id="shape"><option>杏仁甲</option><option>方圆甲</option><option>椭圆甲</option></select></label>
+<label>使用场景<select id="scene"><option>日常</option><option>职场</option><option>约会</option><option>婚礼</option></select></label>
+<button onclick="saveProfile()">生成我的AI推荐</button>
+</main>
+<script src="../js/ai-analysis.js"></script></body></html>
